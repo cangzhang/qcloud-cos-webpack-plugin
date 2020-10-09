@@ -1,5 +1,7 @@
 # QCloudCOSWebpackPlugin
 
+![](https://img.shields.io/npm/v/qcloud-cos-webpack-plugin?style=flat-square&link=https://www.npmjs.com/package/qcloud-cos-webpack-plugin)
+
 ## Configuration
 
 Options: 
