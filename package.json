@@ -1,0 +1,25 @@
+{
+  "name": "qcloud-cos-webpack-plugin",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "description": "A webpack plugin for qcloud cos.",
+  "author": "Al Cheung",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "chalk": "^4.1.0",
+    "cos-nodejs-sdk-v5": "^2.8.2",
+    "md5-file": "^5.0.0",
+    "rollup": "^2.29.0"
+  },
+  "files": [
+    "main.js"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  }
+}
